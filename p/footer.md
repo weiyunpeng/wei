@@ -1,0 +1,2 @@
+[Weibo](http://www.weibo.com/3941290735/) | [GitHub](https://github.com/weiyunpeng)  
+©  2017 [Mr.Ypeng](http://weiyunpeng.github.io/wei/?about.md) Powered By [silentor](http://www.github.com/Jayin/silentor)  
