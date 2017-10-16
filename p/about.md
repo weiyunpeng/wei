@@ -1,10 +1,8 @@
 About Wei
 ===
 ![Meizhuo logo|left](__IMG__/favicon.ico)
-![Meizhuo logo](__IMG__/favicon.ico)
-![Meizhuo logo|right](__IMG__/favicon.ico)
 
-> "Be a silentor, focus on writting your words down"
+> "认真的记录"
 
 
 **Github** [@weiyunpeng](https://github.com/weiyunpeng)
