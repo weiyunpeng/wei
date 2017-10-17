@@ -94,8 +94,4 @@
 
 以上 Alfred 界面使用了少数派的主题. 
 
-有关其他的workflow 内容, 请移步 [`Alfred Workflows`](https://github.com/Louiszhai/alfred-workflows) , 那里会有更多非常不错的 workflow 供您选用.
-
-
-
 [youdao-image]:../../img/docs/shortcuts-youdao.png
