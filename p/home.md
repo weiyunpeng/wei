@@ -1,7 +1,7 @@
 # [近期更新](.)
-- [markdown文档](docs/markdown-useage.md)  
+- [Linux常用命令](linux.md)  
 ```
-这是关于markdown使用的简单说明
+里面有linux的常用命令，妈妈再也不用担心我忘记哪个命令了
 ```
 - [mac使用总结](docs/mac.md)  
 ```
