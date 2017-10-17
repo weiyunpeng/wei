@@ -4,6 +4,7 @@
 
 > 日新之谓盛德
 
-- [念](weekly/index.md)
 - [文档](docs/readme.md)
+- [项目](project/index.md)
+- [念念想](weekly/index.md)
 - [关于](about.md)
