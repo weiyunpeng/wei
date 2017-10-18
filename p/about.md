@@ -1,4 +1,4 @@
-善！博学之，审问之，慎思之，明辨之，笃行之
+专注！！！
 ===
 ![Meizhuo logo|left](__IMG__/favicon.ico)
 

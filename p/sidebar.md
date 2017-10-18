@@ -6,5 +6,4 @@
 
 - [文档](docs/readme.md)
 - [项目](project/index.md)
-- [念念想](weekly/index.md)
 - [关于](about.md)
