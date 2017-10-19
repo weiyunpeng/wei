@@ -4,9 +4,9 @@
 ```
 新增修了你微信小程序
 ```
-- [Linux常用命令](linux.md)  
+- [vscode使用记录](vscode.md)  
 ```
-里面有linux的常用命令，妈妈再也不用担心我忘记哪个命令了
+记录在使用vscode中的一些东西
 ```
 - [mac使用总结](docs/mac.md)  
 ```
