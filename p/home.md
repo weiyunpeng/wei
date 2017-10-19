@@ -4,7 +4,7 @@
 ```
 新增修了你微信小程序
 ```
-- [vscode使用记录](vscode.md)  
+- [vscode使用记录](docs/vscode.md)  
 ```
 记录在使用vscode中的一些东西
 ```
