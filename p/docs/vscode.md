@@ -9,7 +9,7 @@
 
 解决办法：
 
-> 1.在扩展中搜索 **formatter** 安装扩展Prettier  
+> 1.在扩展中搜索 **Prettier** 安装扩展Prettier-JavaScript formatter   
 ![字符串使用单引号|left](./../../img/docs/vscode-4.png)
 
 > 2.在文件 -> 首选项 -> 设置中搜索 **prettier**  
