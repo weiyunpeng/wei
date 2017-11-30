@@ -1,12 +1,8 @@
 # [近期更新](.)
 
-- [新增项目](project/index.md)  
+- [vscode使用记录](vscode.md)  
 ```
-新增修了你微信小程序
-```
-- [vscode使用记录](docs/vscode.md)  
-```
-记录在使用vscode中的一些东西
+工欲善其事必先利其器
 ```
 - [mac使用总结](docs/mac.md)  
 ```

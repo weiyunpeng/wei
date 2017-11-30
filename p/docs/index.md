@@ -12,11 +12,6 @@ markdown上手必备
 里面有linux的常用命令，妈妈再也不用担心我忘记哪个命令了
 ```
 
-- [vscode使用记录](vscode.md)  
-```
-工欲善其事必先利其器
-```
-
 - [vue源码解析](vue.md)  
 ```
 不只是使用vue
@@ -26,6 +21,6 @@ markdown上手必备
 畅游在虚拟与现实之间
 ```
 
-- [WEB杂记](web.md)  
+- [WEB杂记](web/web.md)  
 ```
 WEB实用记录
