@@ -1,12 +1,8 @@
 # [近期更新](.)
 
-- [vscode使用记录](vscode.md)  
+- [vscode使用记录](web/vscode.md)  
 ```
 工欲善其事必先利其器
-```
-- [mac使用总结](docs/mac.md)  
-```
-安利mac开发效率工具，帮助更好的玩转mac
 ```
 
 # 敏捷宣言  

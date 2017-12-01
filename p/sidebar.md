@@ -4,7 +4,7 @@
 
 > 日新之谓盛德
 
-- [碎碎念](weekly/readme.md)
 - [笔记](docs/index.md)
-- [项目](project/index.md)
+- [碎碎念](weekly/readme.md)
+<!-- - [项目](project/index.md) -->
 - [关于我](about.md)
