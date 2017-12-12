@@ -1,6 +1,6 @@
 # [近期更新](.)
 
-- [vscode使用记录](web/vscode.md)  
+- [vscode使用记录](vscode/vscode.md)  
 ```
 工欲善其事必先利其器
 ```
