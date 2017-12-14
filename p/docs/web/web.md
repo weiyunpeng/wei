@@ -1,5 +1,7 @@
 # WEB 杂记
 
+[canvas](canvas/canvas.md)  
+
 [移动端web常见问题与解决方法](20171020.md)  
 
 [四种常见的 POST 提交数据方式](20171024.md)  
