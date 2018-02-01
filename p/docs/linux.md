@@ -4,6 +4,8 @@ lsb_release -a
 # 查看进程
 netstat -anp|more
 
+# 查看mysqld_safe进程ID  
+ps -A|grep mysql 
 
 # 文件字符串批量替换
 grep oldString -rl /path | xargs sed -i "s/oldString/newString/g"
