@@ -6,5 +6,6 @@
 
 - [笔记](docs/index.md)
 - [碎碎念](weekly/index.md)
+- [美食](food/index.md)
 <!-- - [项目](project/index.md) -->
 - [关于我](about.md)
