@@ -1,5 +1,28 @@
 ## vscode个性化配置 
 
+
+### 插件目录
+```
+ - HTML css Support
+ - HTML Snippets
+ - HTMLHint
+ - Auto Rename Tag
+ - Dark-Dracula Theme
+ - Document This
+ - Dracula Official
+ - filesize
+ - Gulp Snippets
+ - IntelliJ IDEA KeyBindings
+ - jQuery Code Snippets
+ - npm
+ - Npm Intellisense
+ - Open in Browser
+ - Path Intellisense
+ - Prettier
+ - Vetur
+ - vscode wxml
+ - vscode-fileheader
+```
 ### 用户设置
 ```
 {
