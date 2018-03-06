@@ -2,10 +2,8 @@
 
 # [Mr.Ypeng](.)
 
-> 日新之谓盛德
+> 冰是睡熟了的水。
 
 - [笔记](docs/index.md)
-- [碎碎念](weekly/index.md)
-- [美食](food/index.md)
-<!-- - [项目](project/index.md) -->
+<!-- - [美食](food/index.md) -->
 - [关于我](about.md)
