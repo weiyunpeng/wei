@@ -37,3 +37,14 @@ scp ./file someuser@192.168.199.1:/home/someuser/    # 拷贝到远程机器
 # tar
 tar zxvf FileName.tar.gz    # 解压
 tar zcvf FileName.tar.gz DirName    # 压缩
+
+# shadowsocks
+```
+1.下载 shadowsocks-Qt5
+2. sudo pip install genpac
+3.sudo genpac --proxy="SOCKS5 127.0.0.1:6677" -o autoproxy.pac --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
+4. 系统设置 --> 网络 --> 网络代理 
+5.“方法”选择“自动”
+6.“配置URL”填写“/home/yunpeng/Desktop/autoproxy.pac”
+7.点击“应用到整个系统”
+```
