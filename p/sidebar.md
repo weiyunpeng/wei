@@ -1,4 +1,4 @@
-![Meizhuo logo](../img/wei-log.png)
+![Yunpeng logo](../img/wei-log.png)
 
 # [Mr.Ypeng](.)
 
