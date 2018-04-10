@@ -11,4 +11,8 @@ var context = canvas.getContext(‘2d’)
 
 [canvas线条](line.md)  
 
+[canvas文本](text.md)  
+
 [图形变换](transform.md)  
+
+[像素处理](filter.md)  

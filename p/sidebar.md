@@ -4,6 +4,7 @@
 
 > 冰是睡熟了的水。
 
-- [笔记](docs/index.md)
+- [首页](.)
+- [.](docs/computer.md)
 <!-- - [美食](food/index.md) -->
 - [关于我](about.md)
