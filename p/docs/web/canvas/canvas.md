@@ -16,3 +16,7 @@ var context = canvas.getContext(‘2d’)
 [图形变换](transform.md)  
 
 [像素处理](filter.md)  
+
+
+### 案例
+[离屏canvas](/wei/p/docs/web/canvas/1000.html)  
