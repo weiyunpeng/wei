@@ -5,5 +5,5 @@
 > 冰是睡熟了的水。
 
 - [首页](.)
-<!-- - [美食](food/index.md) -->
+- [读书](book/index.md)
 - [关于我](about.md)
