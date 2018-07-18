@@ -2,3 +2,12 @@
 
 ========
 > my blog
+
+
+### Developement
+
+```
+npm install
+make serve
+make dev
+```

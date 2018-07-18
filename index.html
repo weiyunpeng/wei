@@ -31,6 +31,7 @@
 //                  别人笑我忒疯癫，我笑自己命太贱；
 //                  不见满街漂亮妹，哪个归得程序员？
 -->
+
 <head>
     <meta charset='utf-8'>
     <title>WEI</title>
@@ -41,6 +42,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- core css -->
     <link rel="stylesheet" href="vendor/core.css">
+    <link rel="stylesheet" href="vendor/extension/sidebar-item/main.css">
 
     <!-- mathJax -->
     <script type="text/javascript" async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -62,26 +64,62 @@
             <!-- 主内容 -->
             <div class="main-page markdown-body" id="main-page"></div>
 
+            <div id="container" style="max-width: 660px;margin:0 auto"></div>
+
             <!-- 底部 -->
             <div class="main-page-footer main-page markdown-body" id="main-page-footer"></div>
         </div>
     </div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+        var gitment = new Gitment({
+            owner: 'weiyunpeng',
+            repo: 'wei',
+            oauth: {
+                client_id: '2d5f6ad057a1fe0f94a4',
+                client_secret: 'ae69f54fa861a9d9b6e3f697eb68492d9f98b42e',
+            },
+        })
+        gitment.render('container')
+    </script>
+
+    <script src="vendor/zepto-1.1.6.min.js"></script>
+
+    <!-- extensions START-->
+    <script src="vendor/extension/disqus-visibility/main.js"></script>
+
+    <!-- slide backgournd -->
+    <link rel="stylesheet" href="vendor/extension/sidebar-background/main.css">
+    <script src="vendor/extension/sidebar-background/main.js"></script>
+
+    <!-- load-progress -->
+    <link rel="stylesheet" href="vendor/extension/load-progress/dist/main.css">
+    <script src="vendor/extension/load-progress/dist/main.js"></script>
+    <!-- extensions END-->
+
+    <!-- core.js -->
+    <script src="vendor/core.js"></script>
+
+    <!-- 统计 -->
+    <script>
+        var _mtac = { "senseQuery": 1 };
+        (function () {
+            var mta = document.createElement("script");
+            mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+            mta.setAttribute("name", "MTAH5");
+            mta.setAttribute("sid", "500617519");
+            mta.setAttribute("cid", "500617523");
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mta, s);
+        })();
+    </script>
+
+    <!-- 惊喜 -->
+    <script>
+        var css = "font-size: 40px;font-weight: bold;-webkit-text-fill-color: transparent; background: -webkit-linear-gradient(transparent, transparent),url(https://sarahdrasnerdesign.com/img/opt/crop-rainbow.gif) repeat; background: -o-linear-gradient(transparent, transparent); -webkit-background-clip: text; text-shadow: 0px 0px 20px rgba(255,255,255,.35);";
+        console.log("%c 请联系153967808@qq.com", css);
+    </script>
 </body>
-<script src="vendor/zepto-1.1.6.min.js"></script>
-
-<!-- extensions START-->
-<script src="vendor/extension/disqus-visibility/main.js"></script> 
-
-<!-- slide backgournd -->
-<link rel="stylesheet" href="vendor/extension/sidebar-background/main.css">
-<script src="vendor/extension/sidebar-background/main.js"></script> 
-
-<!-- load-progress -->
-<link rel="stylesheet" href="vendor/extension/load-progress/dist/main.css">
-<script src="vendor/extension/load-progress/dist/main.js"></script> 
-<!-- extensions END-->
-
-<!-- core.js -->
-<script src="vendor/core.js"></script> 
 
 </html>
