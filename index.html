@@ -89,7 +89,9 @@
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script src="vendor/extension/disqus-visibility/main.js"></script>
     <script>
+        var str = window.location.search;
         var gitment = new Gitment({
+            id: str.split('/')[1],
             owner: 'weiyunpeng',
             repo: 'wei',
             oauth: {
