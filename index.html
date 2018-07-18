@@ -43,6 +43,7 @@
     <!-- core css -->
     <link rel="stylesheet" href="vendor/core.css">
     <link rel="stylesheet" href="vendor/extension/sidebar-item/main.css">
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 
     <!-- mathJax -->
     <script type="text/javascript" async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -64,25 +65,12 @@
             <!-- 主内容 -->
             <div class="main-page markdown-body" id="main-page"></div>
 
-            <div id="container" style="max-width: 660px;margin:0 auto"></div>
+            <div id="disqus_thread" style="max-width: 660px;margin:0 auto"></div>
 
             <!-- 底部 -->
             <div class="main-page-footer main-page markdown-body" id="main-page-footer"></div>
         </div>
     </div>
-    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-    <script>
-        var gitment = new Gitment({
-            owner: 'weiyunpeng',
-            repo: 'wei',
-            oauth: {
-                client_id: '2d5f6ad057a1fe0f94a4',
-                client_secret: 'ae69f54fa861a9d9b6e3f697eb68492d9f98b42e',
-            },
-        })
-        gitment.render('container')
-    </script>
 
     <script src="vendor/zepto-1.1.6.min.js"></script>
 
@@ -96,6 +84,21 @@
     <!-- load-progress -->
     <link rel="stylesheet" href="vendor/extension/load-progress/dist/main.css">
     <script src="vendor/extension/load-progress/dist/main.js"></script>
+
+    <!--gitment-->
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script src="vendor/extension/disqus-visibility/main.js"></script>
+    <script>
+        var gitment = new Gitment({
+            owner: 'weiyunpeng',
+            repo: 'wei',
+            oauth: {
+                client_id: '2d5f6ad057a1fe0f94a4',
+                client_secret: 'ae69f54fa861a9d9b6e3f697eb68492d9f98b42e',
+            },
+        })
+        gitment.render('disqus_thread')
+    </script>
     <!-- extensions END-->
 
     <!-- core.js -->

@@ -5,11 +5,3 @@
         <a class="card-time">2018.06.19</a>
     </a>
 </div>
-
-<div class="card">
-    <a href="docs/computer.md" style="display:block">
-        待整理笔记(慎入)
-        <img src="http://hbfile.b0.upaiyun.com/img/home/banner/1bc004d49cb173857cf75507141a33a0070e7a831040a6" class="card-img" alt="待整理笔记" />
-        <a class="card-time">2018.03.28</a>
-    </a>
-</div>
