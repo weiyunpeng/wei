@@ -2,6 +2,8 @@
 
 [canvas](canvas/canvas.md)  
 
+[合成精灵图](sprite.md)  
+
 [移动端web常见问题与解决方法1](20171020.md)  
 [移动端web常见问题与解决方法2](20180718.md)  
 
