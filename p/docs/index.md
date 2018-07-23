@@ -1,5 +1,5 @@
-* [待整理笔记](computer.md)
+* [hermes](other/hermes.md)
 
 ```
-待整理笔记
+hermes说明文档
 ```
