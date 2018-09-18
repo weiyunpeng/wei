@@ -1,4 +1,6 @@
 .card {
+    position: relative;
+    top: 10px;
     margin: 8px auto;
     padding: 10px 20px 15px 20px;
     border-radius: 3px;
@@ -12,10 +14,9 @@
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
 }
-@media (min-width: 990px) {
-    .card {
-        max-width: 990px;
-    }
+.card:hover {
+    box-shadow: 0px 9px 16px 0px rgba(165, 172, 185, 0.43);
+    -webkit-box-shadow: 0px 9px 16px 0px rgba(165, 172, 185, 0.43);
 }
 .card-time {
     float: right;
