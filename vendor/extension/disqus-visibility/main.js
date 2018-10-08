@@ -1,18 +1,13 @@
 !(function(n) {
     'use strict';
-    var o = ['', 'home.md', 'about.md', 'README.md'],
+    var o = ['', 'home.md', 'about.md', 'README.md', 'links.md'],
         i = function() {
             var n = window.location.search;
-            return !(
-                !/index\./gi.test(n) ||
-                (!n.endsWith('md') && !n.endsWith('markdown'))
-            );
+            return !(!/index\./gi.test(n) || (!n.endsWith('md') && !n.endsWith('markdown')));
         },
         e = function() {
             var n = window.location.search;
-            for (var i in o)
-                if (('' != o[i] && new RegExp(o[i], 'ig').test(n)) || n == o[i])
-                    return !0;
+            for (var i in o) if (('' != o[i] && new RegExp(o[i], 'ig').test(n)) || n == o[i]) return !0;
             return !1;
         };
     n(window).on('loaded-sidebar-page', function() {}),
