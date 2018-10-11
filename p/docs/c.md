@@ -17,7 +17,13 @@ vscode配置
 有时候总会忘记写什么
 ```
 
-* [mysql](sql/mac-mysql.md)
+* [sql](sql/mac-mysql.md)
+
+```
+数据库知识小记
+```
+
+* [nginx](nginx/nginx.md)
 
 ```
 数据库知识小记
