@@ -1,5 +1,7 @@
 # WEB 杂记
 
+[函数柯里化](20181121.md)  
+
 [canvas](canvas/canvas.md)  
 
 [合成精灵图](sprite.md)  
