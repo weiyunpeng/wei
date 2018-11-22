@@ -2,6 +2,8 @@
 
 [函数柯里化](20181121.md)  
 
+[从输入URL到页面加载的过程的梳理](20181122.md)  
+
 [canvas](canvas/canvas.md)  
 
 [合成精灵图](sprite.md)  
