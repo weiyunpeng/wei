@@ -7,13 +7,21 @@
 * [docker](docker/docker.md)
 
 ```
-堆积木，集装箱，你懂的
+搭积木，集装箱，你懂的
 ```
+[vim配置](web/vim.md)  
 
 * [vscode](vscode/vscode.md)
 
 ```
 vscode配置
+```
+
+
+* [python](python/python.md)
+
+```
+python的一些日常记录
 ```
 
 
