@@ -7,3 +7,5 @@
 [佰晟](https://baisheng.me/)
 
 [苏洋](https://soulteary.com/)
+
+[叫兽的博客](https://blog.0xff000000.com/)

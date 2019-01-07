@@ -19,7 +19,7 @@
 <div class="card">
     <a href="sum/index.md">
         总结
-        <img src="http://hbfile.b0.upaiyun.com/img/home/banner/1bc004d49cb173857cf75507141a33a0070e7a831040a6" class="card-img" alt="随手一记的东西" />
+        <img src="http://hbfile.b0.upaiyun.com/img/home/banner/1bc004d49cb173857cf75507141a33a0070e7a831040a6" class="card-img" alt="总结" />
         <a class="card-time">2018.12.14</a>
     </a>
 </div>
