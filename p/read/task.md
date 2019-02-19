@@ -1,4 +1,4 @@
-### [首先列出执行任务队列时候的几件事情:](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/7)
+### [这是在看关于JavaScript 的事件循环时想到的一些东西](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/7)
 
 * js 分为同步任务和异步任务
 * 同步任务都在主线程上执行，形成一个执行栈

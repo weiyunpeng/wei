@@ -1,7 +1,7 @@
 <div class="card">
     <a href="future.md">
         <span>
-        文字是一种传承，比血脉传承更有效。而我总写不出文字。所以图片，视频或者更高级的东西也会诞生。。。。。。
+        文字是一种传承，比血脉传承更有效。然而图片，视频或者更高级的东西也会诞生。。。。。。
         </span>
     </a>
 </div>
@@ -18,7 +18,7 @@
 <div class="card">
     <a href="task.md">
         <span>
-        在javascript执行事件的时候是有任务队列的。。。。。。
+        关于javascript执行事件引发的零碎片段。。。。。。
         </span>
     </a>
 </div>
