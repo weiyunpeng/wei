@@ -568,6 +568,7 @@ checkbox.white[checked] .wx-checkbox-input, radio.white[checked] .wx-radio-input
   margin-left: initial;
   transform: translate(0px, 0px);
   margin-right: initial;
+  border: none;
 }
 
 .cu-btn::after {
@@ -3570,7 +3571,7 @@ scroll-view.cu-steps .cu-item {
   line-height: 1.6;
 }
 
-.text-left {
+.text-left { text-yellow
   text-align: left;
 }
 
@@ -3583,11 +3584,11 @@ scroll-view.cu-steps .cu-item {
 }
 
 .text-orange, .line-orange, .lines-orange {
-  color: #f37b1d;
+  color: #f37b1d !important;
 }
 
 .text-yellow, .line-yellow, .lines-yellow {
-  color: #fbbd08;
+  color: #fbbd08 !important;
 }
 
 .text-olive, .line-olive, .lines-olive {
@@ -3603,11 +3604,11 @@ scroll-view.cu-steps .cu-item {
 }
 
 .text-blue, .line-blue, .lines-blue {
-  color: #0081ff;
+  color: #0081ff !important;
 }
 
 .text-purple, .line-purple, .lines-purple {
-  color: #6739b6;
+  color: #6739b6 !important;
 }
 
 .text-mauve, .line-mauve, .lines-mauve {
@@ -3635,7 +3636,7 @@ scroll-view.cu-steps .cu-item {
 }
 
 .text-white, .line-white, .lines-white {
-  color: #fff;
+  color: #fff !important;
 }
 
 
