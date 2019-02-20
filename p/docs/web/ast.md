@@ -1,7 +1,3 @@
-![ast](https://mmbiz.qpic.cn/mmbiz_png/KyXfCrME6UKBibY1s7gRYIW48HZtt1ICMvHXWh2UCUgbufay1mnTu2IDTnEKrGg8IhoCqLS4fuaaOcKicLVtataA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![AST](https://mmbiz.qpic.cn/mmbiz_png/KyXfCrME6UKBibY1s7gRYIW48HZtt1ICM1965xhf57MsojbWW8Xg1Tfs7MzbazKTdpZkbJGbv93Pib8Xrdr5bVHA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 开源工具：  
 * esprima ： 从JavaScript源代码形成AST 
 * estraverse：遍历树的节点并修改 

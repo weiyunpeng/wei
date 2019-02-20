@@ -7,7 +7,7 @@
         <div class="cu-bar bg-white">
             <div class="action sub-title">
                 <span class="text-xs text-bold text-cyan">工作经历</span>
-                <span class="bg-gradual-cyan"></span>
+                <span class="bg-cyan"></span>
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
@@ -19,7 +19,6 @@
                     <div class="cu-avatar round lg margin-bottom-xs">[达康](http://henan.qq.com/zt/2017/jjgame/index.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[棋](http://henan.qq.com/zt/2016/qiwang/game.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[万](http://henan.qq.com/zt/2016/wss/index.htm)</div>
-                    <div class="cu-avatar round lg margin-bottom-xs">[珠宝](http://henan.qq.com/zt/2017/jjgame/index.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">...</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[助力](http://jzb.qqdayu.com/activity/index)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[四极](https://m.qqdyw.cn/hnsj/index)</div>
@@ -33,7 +32,6 @@
                 <div class="cu-avatar-group">
                     <div class="cu-avatar round lg margin-bottom-xs">[两会](https://github.com/weiyunpeng/lh)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[龙门](http://d.qqdyw.cn)</div>
-                    <div class="cu-avatar round lg margin-bottom-xs">[清园](http://qingyuan.qqdayu.com)</div>
                 </div>
                 <div>基于web的大数据可视化展示。其中全国两会大数据可视化为桌面应用(基于electron，后台使用node，人脸识别通讯使用websocket)</div>
             </div>
@@ -41,7 +39,7 @@
                 <div class="cu-avatar-group">
                     <div class="cu-avatar round lg margin-bottom-xs text-sm">[新娘帮](http://xnb.qqdayu.com)</div>
                 </div>
-                <div>git地址：https://github.com/weiyunpeng/xnb.git。 共三个版本分支可选。</div>
+                <div>git地址：[https://github.com/weiyunpeng/xnb](https://github.com/weiyunpeng/xnb)。 共三个版本分支可选。</div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-mauve  radius light shadow-warp">
                 <div class="cu-avatar-group">
@@ -94,7 +92,7 @@
             <a href="http://www.fullgoal.com.cn/fullwallet/about/index.html" class="block margin-bottom-xs text-center padding bg-orange  radius light shadow-warp">富国基金富钱包应用</a>
             <a href="http://apps.ceair.com/mu_apps/apps/other.html" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">掌上东航移动门户应用开发</a>
             <a href="http://enterprise.appcan.cn/solution/85/74" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">上海医药维护</a>
-            <a href="http://enterprise.appcan.cn/solution/85/74" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">上海凯泉泵业移动端和node后台</a>
+            <a href="http://www.kaiquan.com.cn/index.html" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">上海凯泉泵业移动端和node后台</a>
         </div>
     </div>
 </div>
@@ -108,7 +106,7 @@
     </div>
     <div class='cu-item cur icon-noticefill'>
         <div class="content bg-white radius shadow-warp">
-            <span>一个难忘的夏季</span>【焦作】 河南理工大学软件工程毕业
+            <span>一个难忘的夏季</span>【焦作】 [河南理工大学计算机学院软件工程专业毕业](http://www.hpu.edu.cn/www/index.html)
         </div>
     </div>
 </div>
