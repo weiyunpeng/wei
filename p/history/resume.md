@@ -14,13 +14,13 @@
         <div class="content bg-white light"  style="padding-top:0px;">
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
                 <div class="cu-avatar-group">
+                    <div class="cu-avatar round lg margin-bottom-xs">...</div>  
                     <div class="cu-avatar round lg margin-bottom-xs">[打假](http://m.qqdyw.cn/dajia/index)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[眼](http://henan.qq.com/zt/2016/companion/index.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[计](http://henan.qq.com/zt/2017/jzbjsq/index.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[达康](http://henan.qq.com/zt/2017/jjgame/index.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[棋](http://henan.qq.com/zt/2016/qiwang/game.htm)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[万](http://henan.qq.com/zt/2016/wss/index.htm)</div>
-                    <div class="cu-avatar round lg margin-bottom-xs">...</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[助力](http://jzb.qqdayu.com/activity/index)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[四极](https://m.qqdyw.cn/hnsj/index)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[纪委](http://m.qqdyw.cn/answer19th)</div>
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
-                <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/longmen_car.jpg">
+                <img class="cu-avatar round lg cu-avatar-hover margin-right-lg" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/longmen_car.jpg">
                 <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/qingyuan_car.jpg">
                 <div class="margin-top-xs">
                 停车场小程序。键盘组件已开源[原生小程序停车键盘](https://github.com/weiyunpeng/wxVirKeyboard)和[基于mpvue的停车键盘组件](https://www.npmjs.com/package/mpvue-keyboard)
