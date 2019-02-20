@@ -33,7 +33,7 @@
                 <div class="cu-avatar-group">
                     <div class="cu-avatar round lg margin-bottom-xs">[两会](https://github.com/weiyunpeng/lh)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[龙门](http://d.qqdyw.cn)</div>
-                    <div class="cu-avatar round lg margin-bottom-xs">[清园](http://qingyuan.qqdyw.cn)</div>
+                    <div class="cu-avatar round lg margin-bottom-xs">[清园](http://qingyuan.qqdayu.com)</div>
                 </div>
                 <div>基于web的大数据可视化展示。其中全国两会大数据可视化为桌面应用(基于electron，后台使用node，人脸识别通讯使用websocket)</div>
             </div>
