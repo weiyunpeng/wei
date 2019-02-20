@@ -25,22 +25,21 @@
                     <div class="cu-avatar round lg margin-bottom-xs">[四极](https://m.qqdyw.cn/hnsj/index)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[纪委](http://m.qqdyw.cn/answer19th)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[火锅](http://henan.qq.com/zt/2018/2018huoguo/h5.htm)</div>
-                    <div class="cu-avatar round lg margin-bottom-xs">[专题](http://henan.qq.com)</div>
                 </div>
-                <div>网站维护和定制化PC，H5专题和h5小游戏制作</div>
+                <div>[网站维护和定制化PC，H5专题和h5小游戏制作](http://henan.qq.com)</div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
                 <div class="cu-avatar-group">
                     <div class="cu-avatar round lg margin-bottom-xs">[两会](https://github.com/weiyunpeng/lh)</div>
                     <div class="cu-avatar round lg margin-bottom-xs">[龙门](http://d.qqdyw.cn)</div>
                 </div>
-                <div>基于web的大数据可视化展示。其中全国两会大数据可视化为桌面应用(基于electron，后台使用node，人脸识别通讯使用websocket)</div>
+                <div>基于web的大数据可视化展示。其中全国两会大数据可视化为桌面应用(基于electron。摄像头控制部分使用node，通讯使用websocket)</div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
                 <div class="cu-avatar-group">
                     <div class="cu-avatar round lg margin-bottom-xs text-sm">[新娘帮](http://xnb.qqdayu.com)</div>
                 </div>
-                <div>git地址：[https://github.com/weiyunpeng/xnb](https://github.com/weiyunpeng/xnb)。 共三个版本分支可选。</div>
+                <div>PC端github地址：[https://github.com/weiyunpeng/xnb](https://github.com/weiyunpeng/xnb)。 共三个版本分支可选。</div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
                 <div class="cu-avatar-group">
@@ -58,7 +57,9 @@
                 <img class="cu-avatar round lg cu-avatar-hover margin-right-lg" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/longmen_car.jpg">
                 <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/qingyuan_car.jpg">
                 <div class="margin-top-xs">
-                停车场小程序。键盘组件已开源[原生小程序停车键盘](https://github.com/weiyunpeng/wxVirKeyboard)和[基于mpvue的停车键盘组件](https://www.npmjs.com/package/mpvue-keyboard)
+                停车场小程序。键盘组件已开源
+                <a href="https://github.com/weiyunpeng/wxVirKeyboard" class="text-brown">原生小程序停车键盘</a>
+                <a href="https://www.npmjs.com/package/mpvue-keyboard" class="text-orange">基于mpvue的停车键盘组件</a>
                 </div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
@@ -102,7 +103,7 @@
     <div class="cu-time">2015</div>
     <div class="cu-item text-gray cur icon-noticefill">
         <div class="content bg-white radius shadow-warp">
-            <span>一个漫长的深夜</span>【焦作】 在 编程 和 街舞 这两个热爱的东西中选择往后几年主要发力的职业方向
+            <span>一个漫长的深夜</span>【焦作】 在 **编程** 和 **街舞** 这两个热爱的东西中选择 **编程** 为往后几年主要发力的职业方向
         </div>
     </div>
     <div class='cu-item text-gray cur icon-noticefill'>
