@@ -12,9 +12,4 @@
             <span>02-27</span> [计算机的数据结构](dataStructure.md)
         </div>
     </div>
-    <div class='cu-item text-gray cur icon-evaluate_fill'>
-        <div class="content bg-white radius shadow-warp">
-            <span>02-13</span> [文字是一种传承，比血脉传承更有效。然而图片，视频或者更高级的东西也会诞生。。。。。。](future.md)
-        </div>
-    </div>
 </div>

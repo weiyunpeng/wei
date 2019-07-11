@@ -101,11 +101,6 @@
 
 <div class="cu-timeline bg-gray">
     <div class="cu-time">2015</div>
-    <div class="cu-item text-gray cur icon-noticefill">
-        <div class="content bg-white radius shadow-warp">
-            <span>一个漫长的深夜</span>【焦作】 在 **编程** 和 **街舞** 这两个热爱的东西中选择 **编程** 为往后几年主要发力的职业方向
-        </div>
-    </div>
     <div class='cu-item text-gray cur icon-noticefill'>
         <div class="content bg-white radius shadow-warp">
             <span>一个难忘的夏季</span>【焦作】 [河南理工大学计算机学院软件工程专业毕业](http://www.hpu.edu.cn/www/index.html)
