@@ -48,14 +48,14 @@
                 <div>贷款业务，该业务的web框架是基于做文旅小程序时候的mpvue框架进行改动，加入vantui,从而编译出流畅润滑的web应用。</div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
-                <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/trip.jpg">
+                <img class="cu-avatar round cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/trip.jpg">
                 <div class="margin-top-xs">
                 [腾讯智慧文旅小程序](https://itrip.qq.com)
                 </div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
-                <img class="cu-avatar round lg cu-avatar-hover margin-right-lg" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/longmen_car.jpg">
-                <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/qingyuan_car.jpg">
+                <img class="cu-avatar round cu-avatar-hover margin-right-lg  margin-top-lg" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/longmen_car.jpg">
+                <img class="cu-avatar round cu-avatar-hover margin-top-lg" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/qingyuan_car.jpg">
                 <div class="margin-top-xs">
                 停车场小程序。键盘组件已开源
                 <a href="https://github.com/weiyunpeng/wxVirKeyboard" class="text-brown">原生小程序停车键盘</a>
@@ -63,13 +63,13 @@
                 </div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
-                <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/xiuleni.jpg">
+                <img class="cu-avatar round cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/xiuleni.jpg">
                 <div class="margin-top-xs">
                 [修了你小程序，基于wepy框架开发](https://tencent.github.io/wepy)
                 </div>
             </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
-                <img class="cu-avatar round lg cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/yangche.jpg">
+                <img class="cu-avatar round cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/yangche.jpg">
                 <div class="margin-top-xs">
                 [养车小程序，基于mpvue框架开发](http://mpvue.com/mpvue)
                 </div>
@@ -103,7 +103,7 @@
     <div class="cu-time">2015</div>
     <div class='cu-item text-gray cur icon-noticefill'>
         <div class="content bg-white radius shadow-warp">
-            <span>一个难忘的夏季</span>【焦作】 [河南理工大学计算机学院软件工程专业毕业](http://www.hpu.edu.cn/www/index.html)
+        [河南理工大学计算机学院软件工程专业毕业](http://www.hpu.edu.cn/www/index.html)
         </div>
     </div>
 </div>
