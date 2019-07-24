@@ -1,4 +1,8 @@
-# Dart
+# [Dart](https://github.com/dart-lang/sdk)
+
+- 所有类型都是对象类型，都继承自顶层类型的Object,因此一切变量都是对象，数字、布尔值、函数和null也概莫能外；
+- 未初始化变量的值都是null；
+- 为变量指定类型，这样编辑器和编译器都能更好地理解你的意图。
 
 #### 特性
 
@@ -14,128 +18,6 @@
 #### 单线程模式
 没有线程，只有Isolate(隔离区)。
 在Dart语言中，所有的Dart代码都运行在某个isolate中，代码只能使用所属isolate的类和值。不同的isolate可以通过port发送message进行交流。isolate在它自己的事件循环(event loop)中执行代码，每个事件都可以在该isolate的微任务队列(microtask queue)中执行更小的任务。
-
-```dart
-import 'dart:convert';
-
-import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-import 'dart:async';
-import 'dart:isolate';
-
-void main() {
-  runApp(new SampleApp());
-}
-
-class SampleApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Sample App',
-      theme: new ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: new SampleAppPage(),
-    );
-  }
-}
-
-class SampleAppPage extends StatefulWidget {
-  SampleAppPage({Key key}) : super(key: key);
-
-  @override
-  _SampleAppPageState createState() => new _SampleAppPageState();
-}
-
-class _SampleAppPageState extends State<SampleAppPage> {
-  List widgets = [];
-
-  @override
-  void initState() {
-    super.initState();
-    loadData();
-  }
-
-  showLoadingDialog() {
-    if (widgets.length == 0) {
-      return true;
-    }
-
-    return false;
-  }
-
-  getBody() {
-    if (showLoadingDialog()) {
-      return getProgressDialog();
-    } else {
-      return getListView();
-    }
-  }
-
-  getProgressDialog() {
-    return new Center(child: new CircularProgressIndicator());
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-        appBar: new AppBar(
-          title: new Text("Sample App"),
-        ),
-        body: getBody());
-  }
-
-  ListView getListView() => new ListView.builder(
-      itemCount: widgets.length,
-      itemBuilder: (BuildContext context, int position) {
-        return getRow(position);
-      });
-
-  Widget getRow(int i) {
-    return new Padding(padding: new EdgeInsets.all(10.0), child: new Text("Row ${widgets[i]["title"]}"));
-  }
-
-  loadData() async {
-    ReceivePort receivePort = new ReceivePort();
-    await Isolate.spawn(dataLoader, receivePort.sendPort);
-
-    // The 'echo' isolate sends it's SendPort as the first message
-    SendPort sendPort = await receivePort.first;
-
-    List msg = await sendReceive(sendPort, "https://jsonplaceholder.typicode.com/posts");
-
-    setState(() {
-      widgets = msg;
-    });
-  }
-
-// the entry point for the isolate
-  static dataLoader(SendPort sendPort) async {
-    // Open the ReceivePort for incoming messages.
-    ReceivePort port = new ReceivePort();
-
-    // Notify any other isolates what port this isolate listens to.
-    sendPort.send(port.sendPort);
-
-    await for (var msg in port) {
-      String data = msg[0];
-      SendPort replyTo = msg[1];
-
-      String dataURL = data;
-      http.Response response = await http.get(dataURL);
-      // Lots of JSON to parse
-      replyTo.send(JSON.decode(response.body));
-    }
-  }
-
-  Future sendReceive(SendPort port, msg) {
-    ReceivePort response = new ReceivePort();
-    port.send([msg, response.sendPort]);
-    return response.first;
-  }
-
-}
-```
 
 #### Dart 变量与类型
 未初始化的变量都是null。  
@@ -154,3 +36,59 @@ var map = {"name":"Tom","age":"18"}
 // 增加类型约束后
 var map = <String,String>{"name":"Tom","age":"18"}
 ```
+
+#### 常量
+
+如果想定义不可变的变量，可以使用 *const* 和 *final*。  
+const适用于编译常量，final适用于运行常量。
+
+```dart
+const num = 1;
+final z = num + 1;
+```
+
+#### 函数
+函数也是对象，它的类型是Function。  
+函数也可以被定义为变量，作为参数使用。
+
+```dart
+bool isZero(int number) {
+  return number == 0
+}
+
+void printInfo(int number,Function check) => print("$number is Zero:${check(number)}")
+
+Function f = isZero;
+int x = 0;
+printInfo(x,f)
+```
+多参传递
+```dart
+// 要达到可选命名参数的用法，那就在定义函数的时候给参数加上 {}
+void enable1Flags({bool bold, bool hidden}) => print("$bold , $hidden");
+
+// 定义可选命名参数时增加默认值
+void enable2Flags({bool bold = true, bool hidden = false}) => print("$bold ,$hidden");
+
+// 可忽略的参数在函数定义时用 [] 符号指定
+void enable3Flags(bool bold, [bool hidden]) => print("$bold ,$hidden");
+
+// 定义可忽略参数时增加默认值
+void enable4Flags(bool bold, [bool hidden = false]) => print("$bold ,$hidden");
+
+// 可选命名参数函数调用
+enable1Flags(bold: true, hidden: false); //true, false
+enable1Flags(bold: true); //true, null
+enable2Flags(bold: false); //false, false
+
+// 可忽略参数函数调用
+enable3Flags(true, false); //true, false
+enable3Flags(true,); //true, null
+enable4Flags(true); //true, false
+enable4Flags(true,true); // true, true
+
+```
+
+#### 类
+在类名前加“_”即可作为**private**方法使用，不加就是**public**属性。  
+"_"的限制范围并不是类的访问级别，而是库访问级别。
