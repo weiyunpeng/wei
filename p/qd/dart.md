@@ -37,6 +37,8 @@ var map = {"name":"Tom","age":"18"}
 var map = <String,String>{"name":"Tom","age":"18"}
 ```
 
+### 信息处理
+
 #### 常量
 
 如果想定义不可变的变量，可以使用 *const* 和 *final*。  
@@ -90,5 +92,75 @@ enable4Flags(true,true); // true, true
 ```
 
 #### 类
-在类名前加“_”即可作为**private**方法使用，不加就是**public**属性。  
-"_"的限制范围并不是类的访问级别，而是库访问级别。
+在类名前加下划线即可作为**private**方法使用，不加就是**public**属性。  
+'_'的限制范围并不是类的访问级别，而是库访问级别。  
+初始化参数支持**命名构造函数**
+```dart
+class Point {
+  num x,y,z;
+  Point(this.x, this.y) : z = 0;
+  Point.bottom(num x) : this(x, 0); //重定向构造函数
+  void printInfo() => print(`($x,$y,$z)`);
+}
+
+var p = Point.bottom(100);
+p.printInfo();
+```
+
+#### 复用
+> 继承父类,接口实现和混入（mixin）
+
+- 继承父类：子类由父类派生，自动获取父类的成员变量和方法实现，子类可以根据需要覆写构造函数及父类方法；
+- 接口实现：子类获取到的仅仅是接口的成员变量符号和方法符号，需要重新实现成员变量，以及方法的声明和初始化，否则编译器会报错。
+- mixin:混入，解决多重继承的问题。
+
+```dart
+class Point {
+  num x= 0, y=0;
+  void printInfo() => print(`($x,$y)`);
+}
+
+// Vector 继承自Point
+class Vector extends Point {
+  num z = 0; 
+  @override
+  void printInfo() => print(`($x,$y,$z)`) //覆写了printInfo
+}
+
+//Coordinate是对Point的接口实现
+class Coordinate implements Point {
+  num x=0,y=0; //成员变量需要重新声明
+  void printInfo() => print(`($x,$y)`);
+}
+
+// Stage
+class Stage with Point{}
+
+
+var xxx= Vector();
+xxx
+  ..x = 1
+  ..y = 2
+  ..z = 3; //级联运算符，等同于xxx.x=1;xxx.y=2;xxx.z=3;
+xxx.printInfo(); //输出（1,2,3）
+
+var yyy = Coordinate();
+yyy
+  ..x = 1
+  ..y = 2;
+yyy.printInfo();//输出（1,2）
+
+print(yyy is Point); //true
+print(yyy is Coordinate) // true
+
+var zzz = Stage();
+print(zzz is Point); //true
+print(zzz is Stage);//true
+```
+
+#### 运算符
+> 运算符也是对象成员函数的一部分。我们不仅可以覆写方法，还可以覆写或者自定义运算符。
+
+- **?.** : p?.printInfo() 表示p为null的时候跳过，避免抛出异常。
+- **??=** : a ??= value 表示a为null的时候,给a赋值value，否则跳过。
+- **??** : (a != null) ? a : b 可以简化为a ?? b。
