@@ -37,7 +37,7 @@ cp www.conf.default www.conf
 sudo killall php-fpm
 再重新启动当前的php-fpm
 cd /usr/local/php5/sbin
-sudo php-fpm
+sudo ./php-fpm
 ```
 ok,控制台输入php -v,查看到版本已修改
 ```ssh
