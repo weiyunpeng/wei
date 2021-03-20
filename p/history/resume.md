@@ -1,47 +1,70 @@
+
 <!--startprint-->
-<div class="cu-card">
-    <div class="cu-item text-gray">
-    <a href="https://github.com/weiyunpeng" class="margin-bottom-xs text-center padding bg-cyan  radius light">GitHub</a>
-    </div>
-    <div class="cu-item text-gray">
-    <a href="https://ext.dcloud.net.cn/publisher?id=73948" class="margin-bottom-xs text-center padding bg-cyan  radius light">uni-app</a>
-    </div>
-    <div class="cu-item text-gray">
-    <a href="https://code.tencent.com/" class="margin-bottom-xs text-center padding bg-cyan  radius light ">腾讯工蜂</a>
-    </div>
-    <div class="cu-item text-gray">
-    <a href="http://blog.fivefield.cn/" class="margin-bottom-xs text-center padding bg-cyan  radius light ">我的黑板报</a>
-    </div>
-    <div class="cu-item text-grey text-xxs">下列展示产品不包含公司保密产品</div>
-</div>
 <div class="cu-timeline bg-gray shadow-blur">
-    <div class="cu-time text-orange">至今</div>
-    <div class="cu-item text-orange icon-home">
-        <div class="content bg-gradual-orange shadow-blur">
-            <span>2020-至今</span>【焦作】 创业 [焦作运天下](https://transport.jiaozuoyuntianxia.com/index.action)<text style="font-size:14px;color:#daeof6;">(点击公司名称可查看官网，了解更多详情。)</text>
+    <div class="cu-time text-purple">至今</div>
+    <div class="cu-item text-purple icon-home">
+        <div class="content bg-gradual-purple shadow-blur">
+            <span>2020-至今</span>【焦作】 创业
         </div>
         <div class="cu-bar bg-white">
             <div class="action sub-title">
-                <span class="text-xs text-bold text-orange">工作经历</span>
-                <span class="bg-gradual-orange"></span>
+                <span class="text-xs text-bold text-purple">焦作市运天下网络物流有限公司</span>
+                <span class="bg-gradual-purple"></span>
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
-            <div class="block margin-bottom-xs padding-sm bg-orange  radius light shadow-warp">
-            面向B端企业和大车司机，垂直于大宗散货的运输。连接上下游供应链，解决运输调度以及运输产生的税务问题。
+            <div class="block margin-bottom-xs padding-sm bg-purple  radius light shadow-warp">
+            此项目是我创业的主营业务，面向B端，主要解决大宗物流企业与货车司机的进项税务问题。国家也是在2020年出台网络货运政策，跟着政策做的。这个项目让我学到了更多的除了技术以外的东西，也通过更换角色位置明白自己对待技术除了完成需求以外更多的认知，收获颇丰。
+            </div>
+        </div>
+        <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-purple">巨匠代理平台</span>
+                <span class="bg-gradual-purple"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+            <div class="block margin-bottom-xs padding-sm bg-purple  radius light shadow-warp">
+此项目是创业主营业务暂停后完成的一个比较有趣的项目，整个项目从需求对接到交付是我一个人完成的。感觉做的出色的地方在于沟通和需求的把控。比如在整理完需求后，发现客户的库存与支付之间存在着一定的疑惑，这在以前做商城类项目很容易一笔带过的，后来仔细沟通才知道我们理解的是商品的库存，而客户需要的是每个代理的库存。如果没有沟通清楚，同样是库存写出来的那是天壤之别了。项目中最困难的问题是一个人确实时间和精力有点不足，好在按模块划分以及良好的排期方式，虽然时间上有时候还是有出入，但总体没啥大问题。另外就是这样敏捷的沟通和开发，接收一手信息，感觉效果比从原型里看要好的多。
             </div>
         </div>
     </div>
 </div>
 
 <div class="cu-timeline bg-gray shadow-blur">
-    <div class="cu-time text-purple">2019</div>
-    <div class="cu-item text-purple">
-        <div class="content bg-gradual-purple shadow-blur">
+    <div class="cu-time text-orange">2019</div>
+    <div class="cu-item text-orange">
+        <div class="content bg-gradual-orange shadow-blur">
             <span>2017-2019</span>【郑州】 入职 [腾讯大豫网](http://henan.qq.com)。
-            <text style="font-size:14px;color:#daeof6;">(点击公司名称可查看官网，了解更多详情。)</text>
         </div>
         <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-orange">修了你小程序</span>
+                <span class="bg-orange"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+        这个项目是小程序刚开始普及的时候进行开发的，这里最大的困难就是新，去尝试这个新东西。我在接到这个项目时，先了解了下小程序的原理，以及争取部门机会去北京学习微信举行的小程序开发路演。后面尝试写小demo以及与自己曾经写过的hybird进行对比印证，终于完成了第一个小程序摸索。后来又参与wepy框架的周边配套建设，也完成该小程序的wepy重构。
+        </div>
+        <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-orange">H5和小游戏</span>
+                <span class="bg-orange"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+        我在这些项目中主要负责探索尝试和采坑工作，分别在项目模板库，项目经验分享中做出了一定的成绩。印象最深的是做小游戏和3d类的h5。人物动画关于使用gif和帧动画的抉择，以及3D中坐标位置和模型的引用。其实有些尝试是单靠想象和查资料无法做判断的，只能通过写一些小demo，才能明白其中的道道。
+        </div>
+        <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-orange">新闻专题维护</span>
+                <span class="bg-orange"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+        初到公司的时候负责新闻pc专题页面维护，也就是简单的切图工作。项目除了兼容ie9以下这种稍许带点技术的活儿，还有就是为组里安利不少切图效率工具。
+        </div>
+        <!-- <div class="cu-bar bg-white">
             <div class="action sub-title">
                 <span class="text-xs text-bold text-purple">工作经历</span>
                 <span class="bg-purple"></span>
@@ -60,12 +83,12 @@
                 </div>
                 <div>共三个版本分支可选。</div>
             </div>
-            <!-- <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
+            <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
                 <div class="cu-avatar-group">
                     <div class="cu-avatar round lg margin-bottom-xs text-sm">[帮你贷](http://loan.qqdayu.com)</div>
                 </div>
                 <div>贷款业务，该业务的web框架是基于做文旅小程序时候的mpvue框架进行改动，加入vantui,从而编译出流畅润滑的web应用。</div>
-            </div> -->
+            </div>
             <div class="margin-bottom-xs text-center padding bg-cyan  radius light shadow-warp">
                 <img class="cu-avatar round cu-avatar-hover" src="https://xiaochengxu-1253385854.cos.ap-chengdu.myqcloud.com/logo/trip.jpg">
                 <div class="margin-top-xs">
@@ -109,7 +132,7 @@
                 </div>
                 <div>网站维护和定制化PC，H5专题和h5小游戏制作</div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -117,34 +140,40 @@
     <div class="cu-time text-blue">2017</div>
     <div class="cu-item text-blue icon-evaluate_fill">
         <div class="content bg-gradual-blue shadow-blur">
-            <span>2015-2017</span>【上海】 入职 [正益移动](http://www.appcan.cn)。
-            <text style="font-size:14px;color:#daeof6;">(点击公司名称可查看官网，了解更多详情。)</text>
+            <span>2015-2017</span>【上海】 入职 [appcan](http://www.appcan.cn)。
         </div>
         <div class="cu-bar bg-white">
             <div class="action sub-title">
-                <span class="text-xs text-bold text-blue">工作经历</span>
+                <span class="text-xs text-bold text-blue">上海凯泉泵业移动门户</span>
                 <span class="bg-gradual-blue"></span>
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
-            <a href="http://www.fullgoal.com.cn/fullwallet/about/index.html" class="block margin-bottom-xs text-center padding bg-orange  radius light shadow-warp">富国基金富钱包应用</a>
-            <a href="http://apps.ceair.com/mu_apps/apps/other.html" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">掌上东航移动门户应用开发</a>
-            <a href="http://enterprise.appcan.cn/solution/85/74" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">上海医药维护</a>
-            <a href="http://www.kaiquan.com.cn" class="block margin-bottom-xs padding radius text-center bg-orange light shadow-warp">上海凯泉泵业移动端和node后台</a>
+            此项目是我第一次做的B端应用，也是第一次使用一整套hybird开发体系来做应用。我在项目中负责写前后端逻辑。这个项目有许多有意思的点，这里只说其中一个，比如移动crm模块，因为某些条件，我们是通过爬虫抓取客户pc门户页面进行数据整合和展示的，也是我最大批量的使用node写爬虫。
+        </div>
+        <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-blue">富国基金富钱包应用</span>
+                <span class="bg-gradual-blue"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+            此项目我主要负责移动端的开发，作为一个初入职场的小白，也是在当时没日没夜的加班锻炼，还有就是遇到比较好的领导带着，进步也很快，也学到不少经验，以及养成一些良好的编程习惯。
         </div>
     </div>
 </div>
+<!--endprint-->
 
 <div class="cu-timeline bg-gray">
     <div class="cu-time">2015</div>
     <div class='cu-item text-gray cur icon-noticefill'>
         <div class="content bg-grey radius shadow-warp">
-        [河南理工大学计算机学院软件工程专业毕业](http://www.hpu.edu.cn/www/index.html)
+        [河南理工大学计算机学院](http://cst.hpu.edu.cn/)
         </div>
     </div>
 </div>
-<!--endprint-->
 <div class="margin-tb-sm text-center">
 <button class="cu-btn round bg-yellow shadow text-white margin-right-xs" type="button" onclick="doPrint()">打印</button>
 <a class="cu-btn round bg-black shadow" href="mailto:153967808@qq.com">邮件</a>
 </div>
+
