@@ -30,5 +30,4 @@ SELECT count(key) FROM orderList WHERE Score > YourScore
 
 
 本文思考时的参考来源：
-- [Legend of the Criptids](https://zhuanlan.zhihu.com/p/108588438)
 - [使用Redis实现实时排名](https://www.jianshu.com/p/2cbf358b933b)
