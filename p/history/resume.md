@@ -14,6 +14,7 @@
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
             <div class="block margin-bottom-xs padding-sm bg-purple  radius light shadow-warp">
+            <p>主要工作经验：在于项目管理和人员管理调配</p>
             此项目是我创业的主营业务，面向B端，主要解决大宗物流企业与货车司机的进项税务问题。国家也是在2020年出台网络货运政策，跟着政策做的。这个项目让我学到了更多的除了技术以外的东西，也通过更换角色位置明白自己对待技术除了完成需求以外更多的认知，收获颇丰。
             </div>
         </div>
@@ -25,7 +26,8 @@
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
             <div class="block margin-bottom-xs padding-sm bg-purple  radius light shadow-warp">
-此项目是创业主营业务暂停后完成的一个比较有趣的项目，整个项目从需求对接到交付是我一个人完成的。感觉做的出色的地方在于沟通和需求的把控。比如在整理完需求后，发现客户的库存与支付之间存在着一定的疑惑，这在以前做商城类项目很容易一笔带过的，后来仔细沟通才知道我们理解的是商品的库存，而客户需要的是每个代理的库存。如果没有沟通清楚，同样是库存写出来的那是天壤之别了。项目中最困难的问题是一个人确实时间和精力有点不足，好在按模块划分以及良好的排期方式，虽然时间上有时候还是有出入，但总体没啥大问题。另外就是这样敏捷的沟通和开发，接收一手信息，感觉效果比从原型里看要好的多。
+            <p>主要技术栈：vue2+uni-app+eggjs+typescript</p>
+            <p>亮点在于整个项目一个人独立完成，敏捷快速。缺点在于缺少原型设计和梳理导致需求沟通确认的困难。</p>
             </div>
         </div>
     </div>
@@ -44,7 +46,28 @@
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
+        <p>主要技术栈：wepy+html5+css3+javascript</p>
         这个项目是小程序刚开始普及的时候进行开发的，这里最大的困难就是新，去尝试这个新东西。我在接到这个项目时，先了解了下小程序的原理，以及争取部门机会去北京学习微信举行的小程序开发路演。后面尝试写小demo以及与自己曾经写过的hybird进行对比印证，终于完成了第一个小程序摸索。后来又参与wepy框架的周边配套建设，也完成该小程序的wepy重构。
+        </div>
+        <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-orange">文旅小程序</span>
+                <span class="bg-orange"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+        <p>主要技术栈：uni-app+taro+vue2+react</p>
+        文旅是一系列小程序，我在项目中主要服务小程序的开发，由一开始使用uni-app开发到后来使用taro开发，基本上把小程序主流的这两个框架使用了一遍，也对vue和react有了更多的理解。
+        </div>
+        <div class="cu-bar bg-white">
+            <div class="action sub-title">
+                <span class="text-xs text-bold text-orange">两会人脸识别大数据平台</span>
+                <span class="bg-orange"></span>
+            </div>
+        </div>
+        <div class="content bg-white light"  style="padding-top:0px;">
+        <p>主要技术栈：electron+canvas</p>
+        我在项目中主要负责前端开发，主要功能是大数据的效果展示以及人脸识别签到功能。
         </div>
         <div class="cu-bar bg-white">
             <div class="action sub-title">
@@ -53,7 +76,8 @@
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
-        我在这些项目中主要负责探索尝试和采坑工作，分别在项目模板库，项目经验分享中做出了一定的成绩。印象最深的是做小游戏和3d类的h5。人物动画关于使用gif和帧动画的抉择，以及3D中坐标位置和模型的引用。其实有些尝试是单靠想象和查资料无法做判断的，只能通过写一些小demo，才能明白其中的道道。
+        <p>主要技术栈：vue2+threejs+html5+css3</p>
+        我在这些项目中主要负责完成H5前端的开发以及探索尝试和采坑工作，分别在项目模板库，项目经验分享中做出了一定的成绩。
         </div>
         <div class="cu-bar bg-white">
             <div class="action sub-title">
@@ -62,6 +86,7 @@
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
+        <p>主要技术栈：html+css+javascript</p>
         初到公司的时候负责新闻pc专题页面维护，也就是简单的切图工作。项目除了兼容ie9以下这种稍许带点技术的活儿，还有就是为组里安利不少切图效率工具。
         </div>
         <!-- <div class="cu-bar bg-white">
@@ -149,6 +174,7 @@
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
+            <p>主要技术栈：appcan前后端系列框架</p>
             此项目是我第一次做的B端应用，也是第一次使用一整套hybird开发体系来做应用。我在项目中负责写前后端逻辑。这个项目有许多有意思的点，这里只说其中一个，比如移动crm模块，因为某些条件，我们是通过爬虫抓取客户pc门户页面进行数据整合和展示的，也是我最大批量的使用node写爬虫。
         </div>
         <div class="cu-bar bg-white">
@@ -158,6 +184,7 @@
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
+            <p>主要技术栈：appcan前后端系列框架</p>
             此项目我主要负责移动端的开发，作为一个初入职场的小白，也是在当时没日没夜的加班锻炼，还有就是遇到比较好的领导带着，进步也很快，也学到不少经验，以及养成一些良好的编程习惯。
         </div>
     </div>
@@ -173,7 +200,7 @@
     </div>
 </div>
 <div class="margin-tb-sm text-center">
-<button class="cu-btn round bg-yellow shadow text-white margin-right-xs" type="button" onclick="doPrint()">打印</button>
-<a class="cu-btn round bg-black shadow" href="mailto:153967808@qq.com">邮件</a>
+<!-- <button class="cu-btn round bg-yellow shadow text-white margin-right-xs" type="button" onclick="doPrint()">打印</button> -->
+<a class="cu-btn round bg-yellow shadow-blur" href="mailto:153967808@qq.com">邮件联系我</a>
 </div>
 
