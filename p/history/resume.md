@@ -14,19 +14,19 @@
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
             <div class="block margin-bottom-xs padding-sm bg-purple  radius light shadow-warp">
-            <p>主要工作经验：在于项目管理和人员管理调配</p>
+            <p>主要工作经验：项目管理和人员管理调配</p>
             此项目是我创业的主营业务，面向B端，主要解决大宗物流企业与货车司机的进项税务问题。国家也是在2020年出台网络货运政策，跟着政策做的。这个项目让我学到了更多的除了技术以外的东西，也通过更换角色位置明白自己对待技术除了完成需求以外更多的认知，收获颇丰。
             </div>
         </div>
         <div class="cu-bar bg-white">
             <div class="action sub-title">
-                <span class="text-xs text-bold text-purple">巨匠代理平台</span>
+                <span class="text-xs text-bold text-purple">云仓代理平台</span>
                 <span class="bg-gradual-purple"></span>
             </div>
         </div>
         <div class="content bg-white light"  style="padding-top:0px;">
             <div class="block margin-bottom-xs padding-sm bg-purple  radius light shadow-warp">
-            <p>主要技术栈：vue2+uni-app+eggjs+typescript</p>
+            <p>主要技术栈：vue2+elementui+uni-app+eggjs+typescript</p>
             <p>亮点在于整个项目一个人独立完成，敏捷快速。缺点在于缺少原型设计和梳理导致需求沟通确认的困难。</p>
             </div>
         </div>
