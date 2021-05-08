@@ -12,6 +12,7 @@
     "gulp-minify-css": "^1.1.6",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
+    "live-server": "^1.2.1",
     "serve": "^1.4.0"
   },
   "scripts": {
@@ -19,12 +20,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jayin/silentor.git"
+    "url": "https://github.com/weiyunpeng/wei.git"
   },
-  "author": "Jayin Ton",
+  "author": "Yunpeng",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Jayin/silentor/issues"
-  },
-  "homepage": "https://github.com/Jayin/silentor"
+  "homepage": "https://weiyunpeng.github.io/wei/"
 }
