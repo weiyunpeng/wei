@@ -1,6 +1,6 @@
 <div class="card">
     <a style="display:block">
-        总有一些碎碎念需要收集一下
+        内容暂时归档，可在github里查看
         <img src="https://images.pexels.com/photos/316465/pexels-photo-316465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000" class="card-img" alt="碎念" />
         <a class="card-time">零星的碎念</a>
     </a>
