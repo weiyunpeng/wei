@@ -24,4 +24,4 @@ docker run -p 9000:9000 -p 8000:8000 --name portainer \
 
 配置站点，配置反向代理  
 
-![反向代理](../img/docs/portainer.png)
+![反向代理](./portainer.png)
