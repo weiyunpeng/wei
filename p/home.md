@@ -1,6 +1,6 @@
 <div class="card">
     <a style="display:block">
-        内容暂时归档，可在github里查看
+        内容暂时归档，查看可直接修改参数（eg:?p=docs/docker/portainer.md）
         <img src="https://images.pexels.com/photos/316465/pexels-photo-316465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000" class="card-img" alt="碎念" />
         <a class="card-time">零星的碎念</a>
     </a>
